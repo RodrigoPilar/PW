@@ -1,0 +1,137 @@
+.btn-add-campaign {
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.btn-add-campaign:hover {
+  background-color: #333;
+}
+
+.btn-submit-campaign {
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.btn-submit-campaign:hover {
+  background-color: #333;
+}
+
+.campaign-container {
+  width: 45%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-top: 80px;
+}
+
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.campaign-form label {
+  margin-top: 10px;
+}
+
+.campaign-form input,
+.campaign-form select,
+.campaign-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.campaign-form {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.campaign-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.campaign-table th, .campaign-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.campaign-table th {
+  background-color: #333;
+  color: white;
+  text-align: left;
+}
+
+.checkbox-active {
+  margin-left: 10px;
+  transform: scale(1.5);
+}
+
+.btn-edit-campaign {
+  background-color: #555;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.btn-delete-campaign {
+  background-color: #d03f3f;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.btn-manage-campaign-products {
+  background-color: #0211b5;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.btn-edit-campaign:hover {
+  background-color: #333;
+}
+
+.btn-delete-campaign:hover {
+  background-color: #dd0707;
+}
+
+.btn-manage-campaign-products:hover {
+  background-color: #254ff4;
+}

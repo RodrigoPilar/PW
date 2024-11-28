@@ -1,0 +1,51 @@
+.product-manage-container {
+  padding: 20px;
+  max-width: 550px;
+  margin: 100px auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-manage-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-manage-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-manage-form label {
+  margin-top: 10px;
+}
+
+.product-manage-form input,
+.product-manage-form select,
+.product-manage-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-manage-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.preview-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
